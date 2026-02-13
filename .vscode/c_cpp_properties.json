@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "compilerPath": "cl.exe",
+            "cppStandard": "c++20",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/classCreate/inc",
+                "${workspaceFolder}/json/include",
+                "${workspaceFolder}/classes/inc"
+            ],
+            "intelliSenseMode": "windows-msvc-x64",
+            "name": "Windows"
+        }
+    ],
+    "version": 4
+}

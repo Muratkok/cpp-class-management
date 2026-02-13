@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "/std:c++17",
+                "/I${workspaceFolder}\\classCreate\\inc",
+                "/I${workspaceFolder}\\json\\include",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\classCreate\\src\\classCreate.cpp",
+                "${workspaceFolder}\\classes\\src\\employee.cpp",
+                "/I${workspaceFolder}\\classes\\Inc",
+                "${workspaceFolder}\\classes\\src\\flover.cpp"
+            ],
+            "command": "cl.exe",
+            "group": {
+                "isDefault": true,
+                "kind": "build"
+            },
+            "label": "Build with MSVC",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "type": "cppbuild"
+        }
+    ],
+    "version": "2.0.0"
+}
